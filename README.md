@@ -1,17 +1,17 @@
 # About Web Push Application
 
-    #### Initial Page
+    ### Initial Page
 
     This page contain buttons to Login as user 1 and 2, Trigger Event for an user.
 
-    #### Logging as user
+    ### Logging as user
     "Login as 1" and "Login as 2" buttons will route to the respective pages and will show alter when a notification is triggered.
 
     #### Trigger Event for a user
 
     In the initial page, by entering user id in the "Trigger Event for user id" input and clicking "Trigger Event" Button will trigger notification for the respective user only if the **is_logged_in is true in the database.**
 
-    #### Active OR Deactivate User
+    ### Active OR Deactivate User
     By entering user id and clicking on the Active or Deactive user button will change the **is_logged_in** true or false respectively.
 
 ## Testing
